@@ -83,7 +83,7 @@ a:hover {
   transform: translateY(-30%);
 }
 
-.carousel-item img {
+.carousel-item-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -127,6 +127,15 @@ header nav {
   justify-content: center;
 }
 /* end video-container */
+
+/* carousel-item-wine */
+.carousel-item-wine{
+  background-color: #F2F2F2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+/* carousel-item-wine */
 
 /* start mountains */
 .mountains {
