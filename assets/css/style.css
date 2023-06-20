@@ -28,3 +28,33 @@
 body {
   font-family: "Crique Grotesk";
 }
+
+/* change bootstrap default style  */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-30%);
+}
+.carousel .carousel-item {
+  height: 860px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+.toggle-icon {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 5px;
+}
+.toggle-icon img {
+  width: 100%;
+}
+
+/* start main style */
+header nav {
+  margin-bottom: -4rem;
+  z-index: 10;
+}
