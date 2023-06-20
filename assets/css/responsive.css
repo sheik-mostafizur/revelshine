@@ -4,22 +4,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .carousel.slide {
-    max-height: 460px;
-  }
-  .carousel .carousel-item {
-    height: 460px;
-  }
-  .carousel-caption {
-    top: 50%;
-    transform: translateY(-30%);
-  }
-
-  .carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+  /* mountains */
+  .mountains .mountains-bg {
+    height: 400px;
   }
 }
 
@@ -31,6 +18,11 @@
   .carousel .carousel-item {
     height: 460px;
   }
+
+  /* mountains */
+  .mountains .mountains-bg {
+    height: 500px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -40,6 +32,10 @@
   }
   .carousel .carousel-item {
     height: 560px;
+  }
+  /* mountains */
+  .mountains .mountains-bg {
+    height: 600px;
   }
 }
 

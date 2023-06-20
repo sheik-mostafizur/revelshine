@@ -72,6 +72,23 @@ a:hover {
 }
 
 /* change bootstrap default style  */
+.carousel.slide {
+  max-height: 360px;
+}
+.carousel .carousel-item {
+  height: 360px;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-30%);
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 360px;
+}
 
 .toggle-icon {
   width: 40px !important;
@@ -90,9 +107,19 @@ header nav {
 
 /* start mountains */
 .mountains {
+  position: relative;
+}
+/* mountains */
+.mountains .mountains-bg {
   background: transparent linear-gradient(180deg, #ff6800 0%, #00c8b7 100%) 0%
     0% no-repeat padding-box;
-  height: 600px;
+  height: 300px;
+}
+.mountains .mountains-content {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .video-container {
   position: relative;
@@ -107,7 +134,7 @@ header nav {
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 50%;
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 1.125rem;
   transform: translate(-50%, -50%);
   font-weight: bold;
   display: flex;
