@@ -1,0 +1,30 @@
+/* configure fonts */
+
+@font-face {
+  font-family: "Crique Grotesk";
+  src: url("../font/CriqueGrotesk.eot");
+  src: local("Crique Grotesk"), local("CriqueGrotesk"),
+    url("../font/CriqueGrotesk.eot?#iefix") format("embedded-opentype"),
+    url("../font/CriqueGrotesk.woff2") format("woff2"),
+    url("../font/CriqueGrotesk.woff") format("woff"),
+    url("../font/CriqueGrotesk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Crique Grotesk";
+  src: url("../font/CriqueGrotesk-Bold.eot");
+  src: local("Crique Grotesk Bold"), local("CriqueGrotesk-Bold"),
+    url("../font/CriqueGrotesk-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/CriqueGrotesk-Bold.woff2") format("woff2"),
+    url("../font/CriqueGrotesk-Bold.woff") format("woff"),
+    url("../font/CriqueGrotesk-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* default fontStyle */
+body {
+  font-family: "Crique Grotesk";
+}
