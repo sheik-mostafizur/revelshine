@@ -108,6 +108,7 @@ header nav {
 /* start mountains */
 .mountains {
   position: relative;
+  height: fit-content;
 }
 /* mountains */
 .mountains .mountains-bg {
@@ -142,3 +143,9 @@ header nav {
   justify-content: center;
 }
 /* end mountains */
+
+/* start co-founders */
+.co-founders {
+  margin-top: 450px !important;
+}
+/* end co-founders */

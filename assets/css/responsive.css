@@ -37,6 +37,11 @@
   .mountains .mountains-bg {
     height: 600px;
   }
+
+  /* co-founders */
+  .co-founders {
+    margin-top: 650px !important;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -47,6 +52,11 @@
   .carousel .carousel-item {
     height: 660px;
   }
+
+  /* co-founders */
+  .co-founders {
+    margin-top: 700px !important;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -56,5 +66,10 @@
   }
   .carousel .carousel-item {
     height: 860px;
+  }
+
+  /* co-founders */
+  .co-founders {
+    margin-top: 750px !important;
   }
 }
