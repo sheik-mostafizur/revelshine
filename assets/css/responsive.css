@@ -23,6 +23,11 @@
   .mountains .mountains-bg {
     height: 500px;
   }
+
+  /* signature */
+  .signature h2 {
+    font-size: 2rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -41,6 +46,11 @@
   /* co-founders */
   .co-founders {
     margin-top: 650px !important;
+  }
+
+  /* signature */
+  .signature h2 {
+    font-size: 2.8rem;
   }
 }
 
