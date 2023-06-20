@@ -24,26 +24,38 @@
   font-style: normal;
 }
 
+:root {
+  --rs-orange: #ee712e;
+  --rs-black: #484749;
+}
+
 /* default fontStyle */
 body {
   font-family: "Crique Grotesk";
+  color: var(--rs-black);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: var(--rs-black);
+}
+a:hover {
+  color: var(--rs-orange);
 }
 
 /* change bootstrap default style  */
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-30%);
-}
-.carousel .carousel-item {
-  height: 860px;
-}
 
-.carousel-item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px;
-}
 .toggle-icon {
   width: 40px !important;
   height: 40px !important;

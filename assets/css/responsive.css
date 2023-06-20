@@ -1,0 +1,64 @@
+/* ============== Responsive styles ================= */
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .carousel.slide {
+    max-height: 460px;
+  }
+  .carousel .carousel-item {
+    height: 460px;
+  }
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-30%);
+  }
+
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel.slide {
+    max-height: 460px;
+  }
+  .carousel .carousel-item {
+    height: 460px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .carousel.slide {
+    max-height: 560px;
+  }
+  .carousel .carousel-item {
+    height: 560px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .carousel.slide {
+    max-height: 660px;
+  }
+  .carousel .carousel-item {
+    height: 660px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .carousel.slide {
+    max-height: 860px;
+  }
+  .carousel .carousel-item {
+    height: 860px;
+  }
+}
