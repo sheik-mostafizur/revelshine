@@ -17,12 +17,29 @@
   src: url("../font/CriqueGrotesk-Bold.eot");
   src: local("Crique Grotesk Bold"), local("CriqueGrotesk-Bold"),
     url("../font/CriqueGrotesk-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../font/CriqueGrotesk-Bold.woff2") format("woff2"),
+    url("../font/CriqueGrotesk-Bold.woff2")
+      format(
+        "woff2We didn’t start Revelshine alone, in fact, we asked some of our good friends to be co-founders. They believe in our “No Boundaries + No Waste” approach to wine and life. They also happen to be some of the most accomplished people in their fields."
+      ),
     url("../font/CriqueGrotesk-Bold.woff") format("woff"),
     url("../font/CriqueGrotesk-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Crique Grotesk";
+  src: url("../font/CriqueGrotesk-Medium.eot");
+  src: local("Crique Grotesk Medium"), local("CriqueGrotesk-Medium"),
+    url("../font/CriqueGrotesk-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../font/CriqueGrotesk-Medium.woff2") format("woff2"),
+    url("../font/CriqueGrotesk-Medium.woff") format("woff"),
+    url("../font/CriqueGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Root */
 
 :root {
   --rs-orange: #ee712e;
@@ -65,8 +82,36 @@ a:hover {
   width: 100%;
 }
 
-/* start main style */
+/* main style */
 header nav {
   margin-bottom: -4rem;
   z-index: 10;
 }
+
+/* start mountains */
+.mountains {
+  background: transparent linear-gradient(180deg, #ff6800 0%, #00c8b7 100%) 0%
+    0% no-repeat padding-box;
+  height: 600px;
+}
+.video-container {
+  position: relative;
+}
+.video-container .video-play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 135px;
+  height: 135px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  opacity: 0.9;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end mountains */
