@@ -274,7 +274,7 @@ footer form .submit {
 .signature h2 {
   font-size: 1.5rem;
 }
-.signature img{
+.signature img {
   max-width: 300px;
   display: block;
   margin-left: auto;
@@ -293,3 +293,82 @@ footer form .submit {
   object-fit: cover;
 }
 /* *********** end for PRODUCT-COLLECTION page ************ */
+
+/* *********** start for PRODUCT-DETAIL page ************ */
+.product-detail nav {
+  margin: 0;
+}
+
+/* start some-taste */
+.some-taste {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 7rem 0;
+}
+.some-taste .item {
+  position: relative;
+}
+.some-taste .item h2,
+.some-taste .item .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.some-taste .item .content {
+  background: transparent linear-gradient(180deg, #ff6800 0%, #00c8b7 100%) 0%
+    0% no-repeat padding-box;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 2rem;
+  text-align: center;
+  transition: 0.3s;
+}
+.some-taste .item:hover .content {
+  height: 100%;
+  padding: 2rem;
+}
+
+/* end some-taste */
+
+/* start athlete-stories */
+.athlete-stories {
+  width: 90%;
+  margin-left: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.athlete-stories .content {
+  position: relative;
+}
+.athlete-stories .content article {
+  position: static;
+  top: 50px;
+  left: -50px;
+  max-width: 410px;
+  padding: 2rem;
+  background-color: var(--rs-black);
+  color: white;
+}
+.athlete-stories .content article a {
+  color: white;
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 1rem 0;
+}
+.athlete-stories .content article button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+/* end athlete-stories */
+/* *********** end for PRODUCT-DETAIL page ************ */

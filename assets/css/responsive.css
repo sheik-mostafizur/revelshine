@@ -38,6 +38,15 @@
     grid-template-columns: 2fr 1fr;
   }
   /* *********** end for PRODUCT-COLLECTION page ************ */
+
+  /* *********** start for PRODUCT-DETAILS page ************ */
+  .some-taste {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .athlete-stories .content article {
+    position: absolute;
+  }
+  /* *********** end for PRODUCT-DETAILS page ************ */
 }
 
 /* Large devices (desktops, 992px and up) */
