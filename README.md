@@ -10,3 +10,5 @@
 - PRODUCT-DETAIL : Revelshine - Product Detail - Design – T3
 
 - WINE-FINDER : Revelshine - Wine Finder - Design – T12
+
+- EVENTS : Revelshine - Events - Design-T9 – 1

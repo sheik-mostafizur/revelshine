@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Revelshine</title>
+
+  <!-- bootstrap 5 css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- style  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- responsive style -->
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+
+  <!-- start header -->
+  <header>
+    <!-- start navbar -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler toggle-icon" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <img src="./assets/images/icons/toggle-white.svg" alt="toggle">
+        </button>
+        <a class="navbar-brand" href="/"><img src="./assets/images/logo-white.svg" alt="Logo"></a>
+        <div class="d-none d-md-inline-flex text-white d-flex align-items-center gap-md-4">
+          <p class="fs-5 fw-bold">SEARCH</p>
+          <img class="btn" src="./assets/images/icons/search-white.svg" alt="search">
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">REVELSHINE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FOUNDERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">IMPACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NEWS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start banner -->
+    <div class="banner-product-collection">
+      <img class="img-fluid pe-4" src="./assets/images/events/event-banner-1-min.jpg" alt="">
+      <img class="img-fluid" src="./assets/images/events/event-banner-man-min.jpg" alt="">
+    </div>
+    <!-- end banner -->
+  </header>
+  <!-- end header -->
+
+  <!-- start revelshine-events -->
+  <section class="revelshine-events container py-5 my-5">
+    <h2 class="display-3 fw-bold text-center">REVELSHINE EVENTS</h2>
+
+    <!-- start filter -->
+    <div class="row g-4 my-5 border-bottom border-5 border-dark pb-3">
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center gap-3">
+          <label class="fw-bold fs-5">LOCATION</label>
+          <select class="form-select rounded-pill">
+            <option selected>ALL LOCATIONS</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center gap-3">
+          <label class="fw-bold fs-5">MONTH</label>
+          <div class="dropdown">
+            <a class="btn border rounded-pill dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ALL MONTHS
+            </a>
+
+            <ul class="dropdown-menu p-3">
+              <div class="d-flex justify-content-between">
+                <li>
+                  <div>
+                    <input class="form-check-input" type="checkbox" value="" id="JAN">
+                    <label class="form-check-label" for="JAN">
+                      JAN
+                    </label>
+                  </div>
+                  <div>
+                    <input class="form-check-input" type="checkbox" value="" id="FEB">
+                    <label class="form-check-label" for="FEB">
+                      FEB
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <input class="form-check-input" type="checkbox" value="" id="JUL">
+                    <label class="form-check-label" for="JUL">
+                      JUL
+                    </label>
+                  </div>
+                  <div>
+                    <input class="form-check-input" type="checkbox" value="" id="AUG">
+                    <label class="form-check-label" for="AUG">
+                      AUG
+                    </label>
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center gap-3">
+          <label class="fw-bold fs-5">ATHLETE</label>
+          <select class="form-select rounded-pill">
+            <option selected>ALL ATHLETES</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center gap-3">
+          <label class="fw-bold fs-5 w-100">EVENT TYPE</label>
+          <select class="form-select rounded-pill">
+            <option selected>ALL EVENTS</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-12">
+        <h6 class="fw-bold">SHOWING 13 RESULTS</h6>
+      </div>
+    </div>
+    <!-- end filter -->
+
+    <!-- start event carts -->
+    <div class="row gy-4">
+
+
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="shadow">
+          <div class="card border-0 rounded-0">
+            <img src="./assets/images/events/card-img.jpg" class="card-img border-0 rounded-0" alt="...">
+            <div class="card-img-overlay text-white text-center fw-bold">
+              <button class="btn btn-light rounded-pill fw-bold">EMILY HARRINGTON</button>
+              <h4 class="my-2 fs-1">MAY 2</h4>
+              <p class="card-text">TAHOE CITY, CA | UNCORKED</p>
+            </div>
+          </div>
+          <div class="card border-0 rounded-0 py-3">
+            <div class="card-body text-center fw-bold">
+              <h5 class="card-title">WINE TASTING</h5>
+              <p class="card-text">SAT. MAY 2 | 2:00 PM - 5:00 PM</p>
+              <p class="card-text fw-medium my-2">Emily Harrington, a Revelshine founder will be at Uncorked Tahoe City
+                tasting the new
+                2023 wines</p>
+              <p class="card-text">THIS IS A FREE EVENT!</p>
+              <a href="#" class="orange">EVENT DETAILS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- end event carts -->
+
+  </section>
+  <!-- end revelshine-events -->
+
+  <!-- start footer -->
+  <footer class="py-5">
+    <div class="container text-white py-5">
+      <div class="row gy-4">
+        <div class="col-md-6 col-lg-3">
+          <img class="w-75" src="./assets/images/logo-white.svg" alt="white logo">
+          <div class="icons">
+            <a href="#"><img src="./assets/images/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="./assets/images/icons/instagram.svg" alt="instagram"></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="#" class="d-block fw-bold fs-5 mb-3">FOUNDERS</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">IMPACT</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">SHOP</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">ABOUT</a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="#" class="d-block fw-bold fs-5 mb-3">EVENTS</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">NEWS</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">CONTACT</a>
+          <a href="#" class="d-block fw-bold fs-5 mb-3">STORE FINDER</a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>NEWSLETTER SIGNUP</h4>
+          <p>Sign up for our infrequent and informational newsletters. We promise not to overload your inbox with too
+            many words.</p>
+          <form class="mt-4">
+            <input class="email form-control" type="email" placeholder="YOUR EMAIL" required>
+            <input class="submit" type="submit" value="SUBMIT">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright mt-3">
+      <p class="text-white">©Copyright 2023 <a href="#">Revelshine</a> | <a href="#">Distributors</a> | <a
+          href="#">Privacy Policy</a> | <a href="#">Terms &
+          Conditions</a></p>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- bootstrap 5 script cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

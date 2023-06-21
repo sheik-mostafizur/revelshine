@@ -106,6 +106,15 @@ header nav {
   z-index: 10;
 }
 
+a.orange {
+  font-weight: bold;
+  color: var(--rs-orange);
+  text-decoration: underline;
+}
+a.orange:hover {
+  text-decoration: none;
+}
+
 /* start video-container */
 .video-container {
   position: relative;
@@ -398,13 +407,14 @@ footer form .submit {
 .some-areas {
   margin-bottom: 8rem;
 }
-.some-areas a {
-  font-weight: bold;
-  color: var(--rs-orange);
-  text-decoration: underline;
-}
-.some-areas a:hover {
-  text-decoration: none;
-}
 /* end some-areas */
 /* *********** end for WINE-FINDER page ************ */
+
+/* *********** start for EVENTS page ************ */
+/* start revelshine-events */
+.revelshine-events .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+/* end revelshine-events */
+/* *********** end for EVENTS page ************ */
