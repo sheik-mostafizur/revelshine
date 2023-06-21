@@ -19,3 +19,5 @@
 - COFOUNDER-DETAIL : Revelshine - Co-Founder Detail - Design - T11
 
 - ABOUT : Revelshine - About - Design- - T7
+
+- faq : Revelshine - FAQ - Design- - T7
