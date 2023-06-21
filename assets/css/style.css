@@ -415,3 +415,11 @@ footer form .submit {
 }
 /* end some-areas */
 /* *********** end for WINE-FINDER page ************ */
+
+/* *********** start for ABOUT page ************ */
+.wine-lovers {
+  background-color: var(--rs-black);
+  color: var(--rs-white);
+  padding: 150px 0;
+}
+/* *********** end for ABOUT page ************ */

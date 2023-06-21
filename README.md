@@ -17,3 +17,5 @@
 - EVENTS-Detail : Revelshine - Events - Design-T9 – 2
 
 - COFOUNDER-DETAIL : Revelshine - Co-Founder Detail - Design - T11
+
+- ABOUT : Revelshine - About - Design- - T7
