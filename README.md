@@ -1,6 +1,7 @@
 # revelshine
 
 - HOME
+
   - Revelshine - HP - Design – T1B
   - Revelshine - HP - Design – T1B-2
   - Revelshine - Menu - Design – T1
@@ -13,4 +14,6 @@
 
 - EVENTS : Revelshine - Events - Design-T9 – 1
 
-- EVENTS-UPCOMING : Revelshine - Events - Design-T9 – 2
+- EVENTS-Detail : Revelshine - Events - Design-T9 – 2
+
+- COFOUNDER-DETAIL : Revelshine - Co-Founder Detail - Design - T11

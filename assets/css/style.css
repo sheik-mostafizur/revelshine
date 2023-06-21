@@ -44,6 +44,8 @@
 :root {
   --rs-orange: #ee712e;
   --rs-black: #484749;
+  --rs-cyan: #00c8b7;
+  --rs-white: #ffffff;
 }
 
 /* default fontStyle */
@@ -130,7 +132,7 @@ a.orange:hover {
   left: 50%;
   width: 135px;
   height: 135px;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: var(--rs-white) 0% 0% no-repeat padding-box;
   border-radius: 50%;
   opacity: 0.9;
   font-size: 1.125rem;
@@ -204,7 +206,7 @@ a.orange:hover {
 }
 .join-team form .submit {
   background-color: var(--rs-black);
-  color: white;
+  color: var(--rs-white);
   border-radius: 30px;
   border: none;
   font-size: 20px;
@@ -221,7 +223,7 @@ footer {
   background-color: var(--rs-black);
 }
 footer a {
-  color: white;
+  color: var(--rs-white);
 }
 footer .icons {
   margin-top: 1.5rem;
@@ -239,7 +241,7 @@ footer form .email {
 }
 footer form .submit {
   background-color: var(--rs-orange);
-  color: white;
+  color: var(--rs-white);
   border-radius: 30px;
   border: none;
   font-size: 13px;
@@ -366,10 +368,10 @@ footer form .submit {
   max-width: 410px;
   padding: 2rem;
   background-color: var(--rs-black);
-  color: white;
+  color: var(--rs-white);
 }
 .athlete-stories .content article a {
-  color: white;
+  color: var(--rs-white);
   display: block;
   font-weight: bold;
   text-decoration: underline;
@@ -397,7 +399,7 @@ footer form .submit {
 }
 .find-revelshine form .submit {
   background-color: var(--rs-orange);
-  color: white;
+  color: var(--rs-white);
   border-radius: 30px;
   border: none;
   padding: 7px;
