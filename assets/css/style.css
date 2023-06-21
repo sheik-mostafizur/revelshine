@@ -173,6 +173,72 @@ header nav {
 
 /* end our wine  */
 
+/* start join-team */
+.join-team {
+  background: transparent linear-gradient(180deg, #ff6800 0%, #00c8b7 100%) 0%
+    0% no-repeat padding-box;
+  height: 388px;
+}
+.join-team form {
+  position: relative;
+  padding: 0;
+  max-width: 450px;
+  margin: auto;
+}
+.join-team form .email {
+  border-radius: 30px;
+  padding: 0.6rem 1rem;
+}
+.join-team form .submit {
+  background-color: var(--rs-black);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* end join-team */
+
+/* start footer */
+footer {
+  background-color: var(--rs-black);
+}
+footer a {
+  color: white;
+}
+footer .icons {
+  margin-top: 1.5rem;
+}
+footer .icons img {
+  width: 40px;
+  margin-right: 1rem;
+}
+footer form {
+  position: relative;
+  padding: 0;
+}
+footer form .email {
+  border-radius: 30px;
+}
+footer form .submit {
+  background-color: var(--rs-orange);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 13px;
+  padding: 9.5px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* end footer */
+
+/* *********** start for HOME page ************ */
+
 /* start mountains */
 .mountains {
   position: relative;
@@ -208,37 +274,22 @@ header nav {
 .signature h2 {
   font-size: 1.5rem;
 }
+.signature img{
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+}
 /* end signature */
 
-/* start footer */
-footer {
-  background-color: var(--rs-black);
+/* *********** end for HOME page ************ */
+
+/* *********** start for PRODUCT-COLLECTION page ************ */
+.banner-product-collection {
+  display: grid;
+  grid-template-columns: 1fr;
 }
-footer a {
-  color: white;
+.banner-product-collection img {
+  height: 100%;
+  object-fit: cover;
 }
-footer .icons {
-  margin-top: 1.5rem;
-}
-footer .icons img {
-  width: 40px;
-  margin-right: 1rem;
-}
-footer form {
-  position: relative;
-}
-footer form .email {
-  border-radius: 30px;
-}
-footer form .submit {
-  background-color: var(--rs-orange);
-  color: white;
-  border-radius: 30px;
-  border: none;
-  font-size: 13px;
-  padding: 9px 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-/* end footer */
+/* *********** end for PRODUCT-COLLECTION page ************ */

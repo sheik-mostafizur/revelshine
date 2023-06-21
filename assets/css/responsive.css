@@ -4,10 +4,12 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  /* *********** start for HOME page ************ */
   /* mountains */
   .mountains .mountains-bg {
     height: 400px;
   }
+  /* *********** end for HOME page ************ */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -19,6 +21,7 @@
     height: 460px;
   }
 
+  /* *********** start for HOME page ************ */
   /* mountains */
   .mountains .mountains-bg {
     height: 500px;
@@ -28,6 +31,13 @@
   .signature h2 {
     font-size: 2rem;
   }
+  /* *********** end for HOME page ************ */
+
+  /* *********** start for PRODUCT-COLLECTION page ************ */
+  .banner-product-collection {
+    grid-template-columns: 2fr 1fr;
+  }
+  /* *********** end for PRODUCT-COLLECTION page ************ */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -43,6 +53,7 @@
     height: 600px;
   }
 
+  /* *********** start for HOME page ************ */
   /* co-founders */
   .co-founders {
     margin-top: 650px !important;
@@ -52,6 +63,7 @@
   .signature h2 {
     font-size: 2.8rem;
   }
+  /* *********** end for HOME page ************ */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -63,10 +75,12 @@
     height: 660px;
   }
 
+  /* *********** start for HOME page ************ */
   /* co-founders */
   .co-founders {
     margin-top: 700px !important;
   }
+  /* *********** end for HOME page ************ */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -78,8 +92,10 @@
     height: 860px;
   }
 
+  /* *********** start for HOME page ************ */
   /* co-founders */
   .co-founders {
     margin-top: 750px !important;
   }
+  /* *********** end for HOME page ************ */
 }
