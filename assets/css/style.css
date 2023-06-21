@@ -100,7 +100,7 @@ a:hover {
   width: 100%;
 }
 
-/* main style */
+/* common style */
 header nav {
   margin-bottom: -4rem;
   z-index: 10;
@@ -137,6 +137,41 @@ header nav {
   align-items: center;
 }
 /* carousel-item-wine */
+
+/* start our wine */
+.wine-image {
+  position: relative;
+}
+.wine-image .wine-content {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.wine-image:hover .wine-content {
+  height: 100%;
+  padding: 0.6rem;
+}
+.wine-image .wine-content.sparkling {
+  background: transparent linear-gradient(180deg, #ac4f22 0%, #015f5a 100%) 0%
+    0% no-repeat padding-box;
+}
+.wine-image .wine-content.rose {
+  background: transparent linear-gradient(180deg, #fadc4c 0%, #db3d84 100%) 0%
+    0% no-repeat padding-box;
+}
+.wine-image .wine-content.white {
+  background: transparent linear-gradient(180deg, #e0e051 0%, #49a4cb 100%) 0%
+    0% no-repeat padding-box;
+}
+.wine-image .wine-content.red {
+  background: transparent linear-gradient(180deg, #da3459 0%, #3376a1 100%) 0%
+    0% no-repeat padding-box;
+}
+
+/* end our wine  */
 
 /* start mountains */
 .mountains {
