@@ -433,3 +433,29 @@ footer form .submit {
   color: var(--rs-cyan);
 }
 /* *********** end for COFOUNDER page ************ */
+
+/* *********** start for IMPACT page ************ */
+.plant-pow {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.give-back .give-back-bg {
+  background-color: var(--rs-black);
+  color: var(--rs-white);
+}
+.give-back img {
+  transform: translateY(200px);
+  max-height: 445px;
+  max-width: 1148px;
+  margin-top: -10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  object-fit: cover;
+}
+.give-back .give-back-bg .content {
+  padding-top: 25rem;
+  padding-bottom: 8rem;
+}
+/* *********** end for IMPACT page ************ */

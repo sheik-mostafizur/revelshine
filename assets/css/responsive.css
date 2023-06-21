@@ -47,6 +47,13 @@
     position: absolute;
   }
   /* *********** end for PRODUCT-DETAILS page ************ */
+
+  /* *********** start for IMPACT page ************ */
+  .plant-pow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* *********** end for IMPACT page ************ */
 }
 
 /* Large devices (desktops, 992px and up) */
