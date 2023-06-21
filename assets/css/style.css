@@ -91,6 +91,10 @@ a:hover {
   transform: translateY(-50%);
 }
 
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
 .toggle-icon {
   width: 40px !important;
   height: 40px !important;
@@ -409,12 +413,3 @@ footer form .submit {
 }
 /* end some-areas */
 /* *********** end for WINE-FINDER page ************ */
-
-/* *********** start for EVENTS page ************ */
-/* start revelshine-events */
-.revelshine-events .card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.479);
-}
-
-/* end revelshine-events */
-/* *********** end for EVENTS page ************ */
