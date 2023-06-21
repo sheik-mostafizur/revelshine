@@ -423,3 +423,13 @@ footer form .submit {
   padding: 150px 0;
 }
 /* *********** end for ABOUT page ************ */
+
+/* *********** start for COFOUNDER page ************ */
+.cofounder .card img {
+  height: 300px;
+  object-fit: cover;
+}
+.cofounder .card h6 {
+  color: var(--rs-cyan);
+}
+/* *********** end for COFOUNDER page ************ */

@@ -21,3 +21,5 @@
 - ABOUT : Revelshine - About - Design- - T7
 
 - faq : Revelshine - FAQ - Design- - T7
+
+- COFOUNDER : Revelshine - Co-Founder - Wireframe- - T4 – 1
