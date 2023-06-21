@@ -372,3 +372,39 @@ footer form .submit {
 }
 /* end athlete-stories */
 /* *********** end for PRODUCT-DETAIL page ************ */
+
+/* *********** start for WINE-FINDER page ************ */
+/* start find-revelshine  */
+.find-revelshine form {
+  position: relative;
+  padding: 0;
+}
+.find-revelshine form .email {
+  border-radius: 30px;
+}
+.find-revelshine form .submit {
+  background-color: var(--rs-orange);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* end find-revelshine  */
+
+/* start some-areas */
+.some-areas {
+  margin-bottom: 8rem;
+}
+.some-areas a {
+  font-weight: bold;
+  color: var(--rs-orange);
+  text-decoration: underline;
+}
+.some-areas a:hover {
+  text-decoration: none;
+}
+/* end some-areas */
+/* *********** end for WINE-FINDER page ************ */
