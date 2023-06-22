@@ -25,3 +25,5 @@
 - COFOUNDER : Revelshine - Co-Founder - Wireframe- - T4 – 1
 
 - IMPACT : Revelshine - Impact - Design- - T7
+
+- IMPACT-NEWS-LANDING : Revelshine - Impact - News Landing - T9

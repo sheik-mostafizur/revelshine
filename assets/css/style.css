@@ -459,3 +459,29 @@ footer form .submit {
   padding-bottom: 8rem;
 }
 /* *********** end for IMPACT page ************ */
+
+/* *********** start for IMPACT-NEWS-LANDING page ************ */
+.latest-revelshine .shear {
+  cursor: pointer;
+  position: relative;
+  background-color: var(--rs-white);
+}
+.latest-revelshine .shear img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.latest-revelshine .shear .shear__media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--rs-white);
+  height: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.latest-revelshine .shear:hover .shear__media {
+  height: 100%;
+}
+/* *********** end for IMPACT-NEWS-LANDING page ************ */
