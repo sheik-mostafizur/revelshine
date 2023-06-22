@@ -29,3 +29,5 @@
 - IMPACT-NEWS-LANDING : Revelshine - Impact - News Landing - T9
 
 - IMPACT-NEWS-DETAIL : Revelshine - Impact - News Detail - T6 – 1
+
+- CONTACT : Revelshine - Contact - T8 – 2
