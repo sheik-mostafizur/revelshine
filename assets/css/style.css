@@ -144,6 +144,34 @@ a.orange:hover {
 }
 /* end video-container */
 
+/* start share controller */
+.shear {
+  width: 150px;
+  cursor: pointer;
+  position: relative;
+  background-color: var(--rs-white);
+}
+.shear img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.shear .shear__media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--rs-white);
+  height: 0;
+  overflow: hidden;
+  z-index: 2;
+  transition: 0.3s;
+}
+.shear:hover .shear__media {
+  height: 100%;
+}
+/* end share controller */
+
 /* carousel-item-wine */
 .carousel-item-wine {
   background-color: #f2f2f2;
@@ -459,29 +487,3 @@ footer form .submit {
   padding-bottom: 8rem;
 }
 /* *********** end for IMPACT page ************ */
-
-/* *********** start for IMPACT-NEWS-LANDING page ************ */
-.latest-revelshine .shear {
-  cursor: pointer;
-  position: relative;
-  background-color: var(--rs-white);
-}
-.latest-revelshine .shear img {
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-  margin-left: 5px;
-}
-.latest-revelshine .shear .shear__media {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: var(--rs-white);
-  height: 0;
-  overflow: hidden;
-  transition: 0.2s;
-}
-.latest-revelshine .shear:hover .shear__media {
-  height: 100%;
-}
-/* *********** end for IMPACT-NEWS-LANDING page ************ */

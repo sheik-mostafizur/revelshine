@@ -27,3 +27,5 @@
 - IMPACT : Revelshine - Impact - Design- - T7
 
 - IMPACT-NEWS-LANDING : Revelshine - Impact - News Landing - T9
+
+- IMPACT-NEWS-DETAIL : Revelshine - Impact - News Detail - T6 – 1
